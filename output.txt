@@ -1,0 +1,268 @@
+============================== KAZE =============================
+[START]
+Choose the algorithm:
+  1 = KAZE
+  2 = AKAZE
+  3 = BRISK
+  4 = ORB
+  5 = Histogram
+  6 = Haralick
+1
+[SEARCHING FOR IMAGES]
+    DONE - 0.007003068923950195s
+
+[EXTRACTING FEATURES FROM IMAGES]
+    DONE - 261.27635312080383s
+
+[TESTING]
+    DONE - 0.9364275932312012s
+
+==========[RESULTS]=========
+
+[CROSS VALIDATION SCORE]
+[0.97777778 0.95555556 0.93181818 0.93181818 1.         0.95454545
+ 0.97727273 0.88636364 0.97727273 0.93181818]
+Mean of all iterations: 0.9524242424242424
+
+[LINEAR SUPPORT VECTOR CLASSIFICATION SCORE]
+Training model accuracy:  1.0
+Testing model accuracy :  0.9887640449438202
+
+[CLASSIFICATION REPORT]
+              precision    recall  f1-score   support
+
+  circinatum       1.00      1.00      1.00        14
+    garryana       0.94      1.00      0.97        16
+     glabrum       1.00      1.00      1.00        17
+   kelloggii       1.00      1.00      1.00        17
+macrophyllum       1.00      0.95      0.97        19
+     negundo       1.00      1.00      1.00         6
+
+    accuracy                           0.99        89
+   macro avg       0.99      0.99      0.99        89
+weighted avg       0.99      0.99      0.99        89
+
+>>> 
+============================== AKAZE =============================
+[START]
+Choose the algorithm:
+  1 = KAZE
+  2 = AKAZE
+  3 = BRISK
+  4 = ORB
+  5 = Histogram
+  6 = Haralick
+2
+[SEARCHING FOR IMAGES]
+    DONE - 0.006997585296630859s
+
+[EXTRACTING FEATURES FROM IMAGES]
+    DONE - 47.084415912628174s
+
+[TESTING]
+    DONE - 0.9666883945465088s
+
+==========[RESULTS]=========
+
+[CROSS VALIDATION SCORE]
+[0.86666667 0.95555556 0.93181818 0.93181818 0.90909091 0.90909091
+ 0.97727273 0.84090909 0.95454545 0.93181818]
+Mean of all iterations: 0.9208585858585859
+
+[LINEAR SUPPORT VECTOR CLASSIFICATION SCORE]
+Training model accuracy:  1.0
+Testing model accuracy :  0.9550561797752809
+
+[CLASSIFICATION REPORT]
+              precision    recall  f1-score   support
+
+  circinatum       0.93      1.00      0.96        13
+    garryana       1.00      0.94      0.97        18
+     glabrum       1.00      0.94      0.97        18
+   kelloggii       1.00      0.94      0.97        18
+macrophyllum       0.89      1.00      0.94        16
+     negundo       0.83      0.83      0.83         6
+
+    accuracy                           0.96        89
+   macro avg       0.94      0.94      0.94        89
+weighted avg       0.96      0.96      0.96        89
+
+>>> 
+============================== BRISK =============================
+[START]
+Choose the algorithm:
+  1 = KAZE
+  2 = AKAZE
+  3 = BRISK
+  4 = ORB
+  5 = Histogram
+  6 = Haralick
+3
+[SEARCHING FOR IMAGES]
+    DONE - 0.006003856658935547s
+
+[EXTRACTING FEATURES FROM IMAGES]
+    DONE - 145.50773239135742s
+
+[TESTING]
+    DONE - 0.8757138252258301s
+
+==========[RESULTS]=========
+
+[CROSS VALIDATION SCORE]
+[0.93333333 0.91111111 0.97727273 0.97727273 0.95454545 0.90909091
+ 0.97727273 0.88636364 0.95454545 0.95454545]
+Mean of all iterations: 0.9435353535353537
+
+[LINEAR SUPPORT VECTOR CLASSIFICATION SCORE]
+Training model accuracy:  1.0
+Testing model accuracy :  0.9775280898876404
+
+[CLASSIFICATION REPORT]
+              precision    recall  f1-score   support
+
+  circinatum       1.00      1.00      1.00        14
+    garryana       1.00      0.94      0.97        18
+     glabrum       0.94      1.00      0.97        16
+   kelloggii       1.00      1.00      1.00        17
+macrophyllum       0.94      1.00      0.97        17
+     negundo       1.00      0.86      0.92         7
+
+    accuracy                           0.98        89
+   macro avg       0.98      0.97      0.97        89
+weighted avg       0.98      0.98      0.98        89
+
+>>> 
+============================== ORB =============================
+[START]
+Choose the algorithm:
+  1 = KAZE
+  2 = AKAZE
+  3 = BRISK
+  4 = ORB
+  5 = Histogram
+  6 = Haralick
+4
+[SEARCHING FOR IMAGES]
+    DONE - 0.0060079097747802734s
+
+[EXTRACTING FEATURES FROM IMAGES]
+    DONE - 8.668512344360352s
+
+[TESTING]
+    DONE - 0.6857805252075195s
+
+==========[RESULTS]=========
+
+[CROSS VALIDATION SCORE]
+[0.84444444 0.93333333 0.95454545 0.97727273 0.88636364 0.90909091
+ 0.93181818 0.86363636 0.93181818 0.93181818]
+Mean of all iterations: 0.9164141414141413
+
+[LINEAR SUPPORT VECTOR CLASSIFICATION SCORE]
+Training model accuracy:  0.9886685552407932
+Testing model accuracy :  0.9325842696629213
+
+[CLASSIFICATION REPORT]
+              precision    recall  f1-score   support
+
+  circinatum       1.00      1.00      1.00        14
+    garryana       1.00      0.85      0.92        20
+     glabrum       0.94      0.89      0.91        18
+   kelloggii       1.00      1.00      1.00        17
+macrophyllum       0.89      0.94      0.91        17
+     negundo       0.50      1.00      0.67         3
+
+    accuracy                           0.93        89
+   macro avg       0.89      0.95      0.90        89
+weighted avg       0.95      0.93      0.94        89
+
+>>> 
+============================== Histogram =============================
+[START]
+Choose the algorithm:
+  1 = KAZE
+  2 = AKAZE
+  3 = BRISK
+  4 = ORB
+  5 = Histogram
+  6 = Haralick
+5
+[SEARCHING FOR IMAGES]
+    DONE - 0.006997346878051758s
+
+[EXTRACTING FEATURES FROM IMAGES]
+    DONE - 3.839423418045044s
+
+[TESTING]
+    DONE - 7.777447938919067s
+
+==========[RESULTS]=========
+
+[CROSS VALIDATION SCORE]
+[0.82222222 0.84444444 0.70454545 0.84090909 0.88636364 0.88636364
+ 0.97727273 0.63636364 0.79545455 0.84090909]
+Mean of all iterations: 0.8234848484848486
+
+[LINEAR SUPPORT VECTOR CLASSIFICATION SCORE]
+Training model accuracy:  0.9943342776203966
+Testing model accuracy :  0.8539325842696629
+
+[CLASSIFICATION REPORT]
+              precision    recall  f1-score   support
+
+  circinatum       0.79      0.79      0.79        14
+    garryana       0.94      0.94      0.94        17
+     glabrum       0.88      0.88      0.88        17
+   kelloggii       0.88      0.79      0.83        19
+macrophyllum       0.72      0.87      0.79        15
+     negundo       1.00      0.86      0.92         7
+
+    accuracy                           0.85        89
+   macro avg       0.87      0.85      0.86        89
+weighted avg       0.86      0.85      0.86        89
+
+>>>
+============================== Haralick =============================
+[START]
+Choose the algorithm:
+  1 = KAZE
+  2 = AKAZE
+  3 = BRISK
+  4 = ORB
+  5 = Histogram
+  6 = Haralick
+6
+[SEARCHING FOR IMAGES]
+    DONE - 0.006997585296630859s
+
+[EXTRACTING FEATURES FROM IMAGES]
+    DONE - 34.20693063735962s
+
+[TESTING]
+    DONE - 1.4216194152832031s
+
+==========[RESULTS]=========
+
+[CROSS VALIDATION SCORE]
+[0.86666667 0.82222222 0.88636364 0.84090909 0.90909091 0.93181818
+ 0.79545455 0.72727273 0.77272727 0.88636364]
+Mean of all iterations: 0.8438888888888888
+
+[LINEAR SUPPORT VECTOR CLASSIFICATION SCORE]
+Training model accuracy:  0.8781869688385269
+Testing model accuracy :  0.8539325842696629
+
+[CLASSIFICATION REPORT]
+              precision    recall  f1-score   support
+
+  circinatum       0.71      0.71      0.71        14
+    garryana       0.71      1.00      0.83        12
+     glabrum       0.88      0.83      0.86        18
+   kelloggii       1.00      0.77      0.87        22
+macrophyllum       0.94      1.00      0.97        17
+     negundo       0.83      0.83      0.83         6
+
+    accuracy                           0.85        89
+   macro avg       0.85      0.86      0.85        89
+weighted avg       0.87      0.85      0.85        89
