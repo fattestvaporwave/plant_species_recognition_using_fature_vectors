@@ -5,11 +5,6 @@ Warsaw, 21 stof January 2020
 
 # Plant Species Recognition using Feature Vectors
 
-## Introduction to Image Processing and Computer Vision
-
-## Project 2
-
-
 ## Contents
 
 - 1 Introduction
