@@ -119,8 +119,10 @@ def main():
     print("Mean of all iterations: " + str(np.mean(score)) + "\n")
 
     print("[LINEAR SUPPORT VECTOR CLASSIFICATION SCORE]")
+	
     score = svc.score(xTrain, yTrain)
     print('Training model accuracy:  ' + str(score))
+	
     score = svc.score(xTest, yTest)
     print('Testing model accuracy :  ' + str(score) + "\n")
 
