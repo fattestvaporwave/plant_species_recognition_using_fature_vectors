@@ -121,11 +121,9 @@ def main():
     print("[LINEAR SUPPORT VECTOR CLASSIFICATION SCORE]")
 	
     score = svc.score(xTrain, yTrain)
-    print('Training model accuracy:  ' + str(score))
-	
+    print('Training model accuracy:  ' + str(score))	
     score = svc.score(xTest, yTest)
     print('Testing model accuracy :  ' + str(score) + "\n")
-
     print("[CLASSIFICATION REPORT]")
     test_pred = svc.predict(xTest)   
     print(classification_report(test_pred, yTest, target_names=names))
